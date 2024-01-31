@@ -3,6 +3,7 @@ import "./globals.css";
 
 import Uper from "./(components)/uperHader/page";
 import Hader from "./(components)/mainHader/page";
+import Nave from "./(components)/navebar/page";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Uper />
         <Hader />
+        <Nave />
         {children}
       </body>
     </html>
