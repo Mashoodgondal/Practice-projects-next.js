@@ -1,5 +1,5 @@
 import React from "react";
-
+import pro from "../../public/imeges/3.jpg";
 const Main = () => {
   return (
     <div>
@@ -34,6 +34,8 @@ const Main = () => {
           </p>
         </div>
       </div>
+      <image src={pro} className="h-24 w-24 mt-8 mx-auto" />
+      <h1>Thanks Very Much</h1>
     </div>
   );
 };
