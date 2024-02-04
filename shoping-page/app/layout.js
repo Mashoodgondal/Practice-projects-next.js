@@ -19,6 +19,7 @@ export default function RootLayout({ children }) {
         <Uper />
         <Hader />
         <Nave />
+
         {children}
       </body>
     </html>

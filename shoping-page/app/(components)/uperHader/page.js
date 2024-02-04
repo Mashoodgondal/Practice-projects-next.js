@@ -11,7 +11,7 @@ const Uper = () => {
         <FaSquareInstagram />
         <FaSquareXTwitter />
       </div>
-      <div className="text-center sm:text-3xl lg:text-2xl  text-gray-500 mx-auto  ">
+      <div className="text-center sm:text-3xl lg:text-2xl   text-gray-500 mx-auto  ">
         <h2>Free Shoping This Week</h2>
       </div>
       <div>
