@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { IoMdMenu } from "react-icons/io";
-import Link from "next/link";
+import { RiCloseCircleFill } from "react-icons/ri";
 
 const Nave = () => {
   const [nav, setnav] = useState(false);
@@ -10,11 +10,11 @@ const Nave = () => {
   };
   return (
     <div>
-      <nav className=" sticky bg-gray-50 dark:bg-gray-700">
+      <nav className=" sticky bg-gray-400 shadow-lg shadow-gray-600 dark:bg-gray-800">
         <div className="max-w-screen-xl flex justify-between px-4 py-3 mx-auto">
-          <div className="flex items-center">
-            <a href="#" className="text-gray-600 text-xl font-bold">
-              Logo
+          <div>
+            <a href="#" className="text-indigo-600 text-3xl font-bold">
+              Name
             </a>
           </div>
 
@@ -76,35 +76,72 @@ const Nave = () => {
           </div>
         </div>
       </nav>
-
-      <nav className="bg-gray-800 p-4">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex justify-between">
-            <div className="flex items-center">
-              <a href="#" className="text-white text-xl font-bold">
-                Logo
-              </a>
-            </div>
-            <div className="hidden md:flex">
-              <a href="#" className="text-white mx-4">
-                Home
-              </a>
-              <a href="#" className="text-white mx-4">
-                About
-              </a>
-              <a href="#" className="text-white mx-4">
-                Services
-              </a>
-              <a href="#" className="text-white mx-4">
-                Contact
-              </a>
-            </div>
-            <div className="md:hidden text-white">
-              <IoMdMenu size={25} />
-            </div>
+      {/* MOBILE Nave */}
+      <div className="md:hidden p-6 bg-whitw w-full">
+        <div className=" p-8 border-b border-green-300   flex item-center justify-between">
+          <div>
+            <a href="#" className="text-indigo-600  text-3xl font-bold">
+              Logo
+            </a>
+          </div>
+          <div
+            onClick={handleNave}
+            className=" rounded-full shadow-lg shadow-gray-500"
+          >
+            <RiCloseCircleFill size={35} />
           </div>
         </div>
-      </nav>
+        <ul className="flex flex-col uppercase space-y-2 mt-6 font-bold text-gray-600 ml-8 ">
+          <li>
+            <a
+              href="#"
+              className="text-gray-900 hover:text-blue-600 dark:text-white "
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              className="text-gray-900 hover:text-blue-600 dark:text-white "
+            >
+              Company
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              className="text-gray-900 hover:text-blue-600 dark:text-white  "
+            >
+              Team
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              className="text-gray-900 hover:text-blue-600 dark:text-white "
+            >
+              Features
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              className="text-gray-900 hover:text-blue-600 dark:text-white "
+            >
+              Blogs
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              className="text-gray-900 hover:text-blue-600 dark:text-white "
+            >
+              HOT OFFERS
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };
