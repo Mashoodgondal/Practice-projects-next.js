@@ -7,9 +7,9 @@ const Uper = () => {
   return (
     <div className="container  md:flex hidden sm:block  item-center border border-gray-400 p-4 mt-4 mx-auto  ">
       <div className="flex justify-left  item-center gap-6  ">
-        <MdFacebook />
-        <FaSquareInstagram />
-        <FaSquareXTwitter />
+        <MdFacebook size={25} />
+        <FaSquareInstagram size={25} />
+        <FaSquareXTwitter size={25} />
       </div>
       <div className="text-center sm:text-3xl lg:text-2xl   text-gray-500 mx-auto  ">
         <h2>Free Shoping This Week</h2>
