@@ -70,7 +70,7 @@ const Nave = () => {
                 </a>
               </li>
             </ul>
-            <div onClick={handleNave} className="md:hidden">
+            <div onClick={handleNave} className="md:hidden cursor-pointer">
               <IoMdMenu size={25} />
             </div>
           </div>
@@ -93,7 +93,7 @@ const Nave = () => {
             </div>
             <div
               onClick={handleNave}
-              className=" rounded-full shadow-lg shadow-gray-500"
+              className=" rounded-full shadow-lg shadow-gray-500 cursor-pointer"
             >
               <RiCloseCircleFill size={35} />
             </div>
