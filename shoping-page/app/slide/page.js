@@ -103,10 +103,32 @@
 
 const Slide = () => {
   return (
-    <div>
+    <div className="p-6  text-center ">
       <h1 className="text-center hover:text-4xl text-3xl text-indigo-600 mt-10 font-bold underline cursor-pointer ">
         Slider
       </h1>
+      <button type="button" className="bg-indigo-500 mt-20" disabled>
+        <svg class="animate-spin h-5 w-5 mr-3 ..." viewBox="0 0 24 24"></svg>
+        Processing...
+      </button>
+      <svg className="bg-gray-800 mt-20 animate-bounce w-10 h-10 mx-auto text-white">
+        Alfmf
+      </svg>
+      <div class="border border-blue-300 shadow rounded-md p-4 max-w-sm w-full mx-auto">
+        <div class="animate-pulse flex space-x-4">
+          <div class="rounded-full bg-slate-600 h-10 w-10"></div>
+          <div class="flex-1 space-y-6 py-1">
+            <div class="h-2 bg-slate-600 rounded"></div>
+            <div class="space-y-3">
+              <div class="grid grid-cols-3 gap-4">
+                <div class="h-2 bg-slate-600 rounded col-span-2"></div>
+                <div class="h-2 bg-slate-600 rounded col-span-1"></div>
+              </div>
+              <div class="h-2 bg-slate-600 rounded"></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
