@@ -6,7 +6,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 const Uper = () => {
   return (
     <div className="container  md:flex hidden sm:block  item-center border border-gray-400 p-4 mt-4 mx-auto  ">
-      <div className="flex justify-left  item-center gap-6  ">
+      <div className="flex justify-left cursor-pointer item-center gap-6  ">
         <MdFacebook size={25} />
         <FaSquareInstagram size={25} />
         <FaSquareXTwitter size={25} />
