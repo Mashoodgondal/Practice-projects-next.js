@@ -1,5 +1,6 @@
 import Hero from "./heroSection/page";
 import Carousel from "./slide/page";
+// import imt from "@/app/image/lg1.jpg";
 // import Slide from "./slide/page";
 const images = [
   "https://via.placeholder.com/600x400?text=Image+1",
