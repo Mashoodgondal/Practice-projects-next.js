@@ -3,7 +3,7 @@ import Carousel from "./slide/page";
 // import imt from "@/app/image/lg1.jpg";
 // import Slide from "./slide/page";
 const images = [
-  "https://via.placeholder.com/600x400?text=Image+1",
+  "./image/comp1.jpg",
   "https://via.placeholder.com/600x400?text=Image+2",
   "https://via.placeholder.com/600x400?text=Image+3",
 ];
