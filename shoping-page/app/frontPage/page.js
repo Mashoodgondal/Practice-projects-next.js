@@ -11,7 +11,7 @@ const Front = () => {
           alt="shopping image"
           className="w-[1100px] h-[400px] mt-8 mx-auto  "
         />
-        <div className="absolute bottom-9 left-1/2 transform -translate-x-1/2 text-red-600 cursor-pointer hover:font-bold hover:text-red-700 text-3xl">
+        <div className="absolute bottom-9  left-1/2 transform -translate-x-1/2 text-red-600 cursor-pointer hover:font-bold hover:text-red-700 text-3xl">
           "Discover your style, one click at a time."
         </div>
       </div>
