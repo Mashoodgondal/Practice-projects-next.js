@@ -144,6 +144,38 @@ const page = () => {
     //   </div>
     //   <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
     // </form>
+
+    // <h2>all 2</h2>
+    // <!-- TW Elements is free under AGPL, with commercial license required for specific uses. See more details: https://tw-elements.com/license/ and contact us for queries at tailwind@mdbootstrap.com -->
+    // <div
+    //   class="block w-full rounded-lg bg-white text-left shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+    //   <div class="p-6">
+    //     <p class="text-base text-neutral-600 dark:text-neutral-200">
+    //       This is some text within a card body.
+    //     </p>
+    //   </div>
+    // </div>
+    // <!-- TW Elements is free under AGPL, with commercial license required for specific uses. See more details: https://tw-elements.com/license/ and contact us for queries at tailwind@mdbootstrap.com -->
+    // <div
+    //   class="block w-full max-w-[18rem] rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+    //   <div
+    //     class="border-b-2 border-neutral-100 border-opacity-100 p-4 dark:border-opacity-50 dark:text-neutral-50">
+    //     Featured
+    //   </div>
+    //   <ul class="w-full">
+    //     <li
+    //       class="w-full border-b-2 border-neutral-100 border-opacity-100 px-4 py-3 dark:border-opacity-50">
+    //       Cras justo odio
+    //     </li>
+    //     <li
+    //       class="w-full border-b-2 border-neutral-100 border-opacity-100 px-4 py-3 dark:border-opacity-50">
+    //       Dapibus ac facilisis in
+    //     </li>
+    //     <li class="w-fullpx-4 py-3 dark:border-opacity-50">
+    //       Vestibulum at eros
+    //     </li>
+    //   </ul>
+    // </div>
   );
 };
 
