@@ -326,6 +326,28 @@ const page = () => {
     //       </div>
     //     </div>
     // </footer>
+    //     <form action="" >
+    //     <label>  Enter your name</label>
+    //     <input type="text"/> <br><br>
+    // <label for="password">Enter your password</label>
+    // <input type="password"/><br><br>
+    // <label for="email">Enter your email</label>
+    // <input  type="text"/><br><br>
+
+    //     <hr>
+    //     <h2>Select gender</h2>
+    // <select name="gender" id="">
+    // <option value="m">Male</option>
+    // <option value="f">Female</option>
+    // <option value="o">Other then</option>
+    // </select>
+    // <input type="range"/>
+    // <input type="color"/>
+    // <input type="file"/>
+    // <input type="reset"/>
+    // <input type="submit"/>
+    // <hr>
+    //      </form>
   );
 };
 
