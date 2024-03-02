@@ -348,6 +348,17 @@ const page = () => {
     // <input type="submit"/>
     // <hr>
     //      </form>
+    // <h1>MASHOOD ALI</h1>
+    // <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, eum. Maxime sed quibusdam porro dignissimos mollitia. Eos vel,<br/><q>all about this patin</q> doloribus
+    //     <p> ipsa <abbr title="easy way of source">ess</abbr> esse, impedi<p> <acronym title="random access mamory"> RAM</acronym></p> pariatur molestias beatae dolores quasi rerum tempora</p> provident.</P>
+    //     <p> Lorem ipsum<cite>THERE IS NOTHING INPOSSIPAL</cite> dolor sit amet consectetur adipisicing elit. Aut ratione nam dolorum perferendis illum neque libero cumque,
+    //          tempore rerum, facere ipsum
+    //          <address>
+    //             <p> <a href="mail to:hometo@example.org">hometo@examle.org</a>"</p>
+    //          </address> rem dolores laborum <del>was</del><ins>MASHOOD GONDAL</ins><s>laudantium quis eveniet officia</s> deleniti.</p>
+
+    //          <p><dl><dt>Lorem</dt><dd> ipsum dolor, sit amet consectetur adipisicing elit. Et, natus labore minus fugiat sit dolore sed? Quas, rem quisquam odio, corrupti dolorem </dd></dl> ea animi, voluptatem laborum incidunt delectus alias?</p>
+    //     <img src="images/baby.png"/>
   );
 };
 
