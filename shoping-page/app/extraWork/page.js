@@ -359,6 +359,25 @@ const page = () => {
 
     //          <p><dl><dt>Lorem</dt><dd> ipsum dolor, sit amet consectetur adipisicing elit. Et, natus labore minus fugiat sit dolore sed? Quas, rem quisquam odio, corrupti dolorem </dd></dl> ea animi, voluptatem laborum incidunt delectus alias?</p>
     //     <img src="images/baby.png"/>
+    // <h2>Local Storage is working ...</h2>
+    // <center>
+    //     <div>
+    //         <label for="">Name</label>
+    //         <input type="text" name="" id="name">
+    //     </div>
+    //     <br>
+    //     <div>
+    //         <label for="">Roll No</label>
+    //         <input type="number" name="" id="rollno">
+    //     </div>
+    //     <br>
+    //     <div>
+    //         <button onclick="storeUser()">Submit</button>
+    //         <button>Delete</button>
+    //         <button>Update</button>
+    //     </div>
+    //     <br>
+    // </center>
   );
 };
 
