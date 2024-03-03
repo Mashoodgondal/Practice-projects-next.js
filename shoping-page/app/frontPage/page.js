@@ -15,6 +15,8 @@ const Front = () => {
           "Discover your style, one click at a time."
         </div>
       </div>
+      <h1>ali </h1>
+      <h2>asghar</h2>
     </div>
   );
 };
