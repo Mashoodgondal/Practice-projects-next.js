@@ -17,6 +17,13 @@ const Front = () => {
       </div>
       <h1>ali </h1>
       <h2>asghar</h2>
+      <h3>sdfhiuew</h3>
+      <h1>ali </h1>
+      <h2>asghar</h2>
+      <h3>sdfhiuew</h3>
+      <h1>ali </h1>
+      <h2>asghar</h2>
+      <h3>sdfhiuew</h3>
     </div>
   );
 };
