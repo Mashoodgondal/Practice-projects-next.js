@@ -378,6 +378,47 @@ const page = () => {
     //     </div>
     //     <br>
     // </center>
+    //     <div class="header">
+    //     <div class="container">Figma prototype testing just got a lot better</div>
+    // </div>
+    // <nav>
+    //     <div class="container">
+    //         <div class="nav-wrapper">
+    //             <div class="company-logo">
+    //                 <img src="./assets/asset 1.png" alt="logo">
+    //             </div>
+    //             <div class="navigation">
+    //                 <div class="nav-links">
+    //                     <ul class="nav-links-wrapper">
+    //                         <li>Product</li>
+    //                         <li>Customer</li>
+    //                         <li>Pricing</li>
+    //                         <li>Resources</li>
+    //                     </ul>
+    //                 </div>
+    //                 <div class="nav-buttons">
+    //                     <div class="button b1">Sign up</div>
+    //                     <div class="button b2">Sign in</div>
+    //                 </div>
+    //             </div>
+    //         </div>
+
+    //     </div>
+    // </nav>
+    // <section class="hero-section">
+    //     <div class="container">
+    //         <div class="hero-section-parent">
+    //             <div class="hero-section-text">
+    //                 <h1>Design Confidently</h1>
+    //                 <p>UsabilityHub is a remote user research platform that takes the guesswork out of design decisions by validating them with real users.</p>
+    //                 <div class="button get-started">Get started</div>
+    //             </div>
+    //             <div class="hero-section-image">
+    //                 <img src="./assets/asset 2.png" alt="img">
+    //             </div>
+    //         </div>
+    //     </div>
+    // </section>
   );
 };
 
