@@ -2,6 +2,8 @@
 import { useState } from "react";
 import { IoMdMenu } from "react-icons/io";
 import { RiCloseCircleFill } from "react-icons/ri";
+import Contect from "@/app/contect/page";
+import Link from "next/link";
 
 const Nave = () => {
   const [nav, setnav] = useState(false);
