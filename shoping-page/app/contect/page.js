@@ -45,6 +45,26 @@ const Contect = () => {
           </label>
         </div>
       </form>
+      <form className="p-4 mt-10 mx-auto text-center space-y-4">
+        <div>
+          <label>
+            Name
+            <input placeholder="Enter your name"></input>
+          </label>
+        </div>
+        <div>
+          <label>
+            Email
+            <input placeholder="Enter your email"></input>
+          </label>
+        </div>
+        <div>
+          <label>
+            Password
+            <input placeholder="Enter your password"></input>
+          </label>
+        </div>
+      </form>
     </div>
   );
 };
