@@ -79,7 +79,7 @@ const Nave = () => {
         </div>
       </nav>
       {/* MOBILE Nave */}
-      <div className={`${nav ? "md:hidden p-6 bg-whitw w-full" : ""}`}>
+      <div className={`${nav ? "md:hidden p-6 bg-white w-full" : ""}`}>
         <div
           className={`${
             nav
