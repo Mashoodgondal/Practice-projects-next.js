@@ -1,6 +1,6 @@
 "use client";
 import { addDoc, collection } from "firebase/firestore";
-import { db } from "@/app/config/firebase";
+import { db } from "@/config/firebase";
 import { useState } from "react";
 
 const Contect = () => {

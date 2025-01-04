@@ -25,7 +25,7 @@ const Nave = () => {
               <li>
                 <a
                   href="/"
-                  className="text-gray-900 dark:text-white hover:text-red-700 hover:border-b hover:border-red-700"
+                  className="text-gray-900 hover:text-red-700 hover:border-b hover:border-red-700"
                   aria-current="page"
                 >
                   HOME
@@ -34,7 +34,7 @@ const Nave = () => {
               <li>
                 <a
                   href="/"
-                  className="text-gray-900 dark:text-white hover:text-red-700 hover:border-b hover:border-red-700"
+                  className="text-gray-900 hover:text-red-700 hover:border-b hover:border-red-700"
                 >
                   COMPANY
                 </a>
@@ -42,7 +42,7 @@ const Nave = () => {
               <li>
                 <a
                   href="/"
-                  className="text-gray-900 dark:text-white hover:text-red-700 hover:border-b hover:border-red-700"
+                  className="text-gray-900 hover:text-red-700 hover:border-b hover:border-red-700"
                 >
                   TEAM
                 </a>
@@ -50,7 +50,7 @@ const Nave = () => {
               <li>
                 <a
                   href="/"
-                  className="text-gray-900 dark:text-white hover:text-red-700 hover:border-b hover:border-red-700"
+                  className="text-gray-900 hover:text-red-700 hover:border-b hover:border-red-700"
                 >
                   FEATURES
                 </a>
@@ -58,7 +58,7 @@ const Nave = () => {
               <li>
                 <a
                   href="/"
-                  className="text-gray-900 dark:text-white hover:text-red-700 hover:border-b hover:border-red-700"
+                  className="text-gray-900 hover:text-red-700 hover:border-b hover:border-red-700"
                 >
                   BLOG
                 </a>
@@ -66,7 +66,7 @@ const Nave = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-900 dark:text-white hover:text-red-700 hover:border-b hover:border-red-700"
+                  className="text-gray-900 hover:text-red-700 hover:border-b hover:border-red-700"
                 >
                   HOT OFFERS
                 </a>
@@ -81,11 +81,10 @@ const Nave = () => {
       {/* MOBILE Nave */}
       <div className={`${nav && "md:hidden p-6 bg-white w-full"}`}>
         <div
-          className={`${
-            nav
-              ? " w-[80%] sm:w-[70%] md:w-[85%]  p-10 ease-in duration-500"
-              : "fixed left-[-100%] p-10 ease-in duration-1000"
-          }`}
+          className={`${nav
+            ? " w-[80%] sm:w-[70%] md:w-[85%]  p-10 ease-in duration-500"
+            : "fixed left-[-100%] p-10 ease-in duration-1000"
+            }`}
         >
           <div className=" p-8 border-b border-green-300   flex item-center justify-between">
             <div>
@@ -104,7 +103,7 @@ const Nave = () => {
             <li>
               <a
                 href="#"
-                className="text-gray-900 hover:text-blue-600 dark:text-white "
+                className="text-gray-900 hover:text-blue-600  "
               >
                 Home
               </a>
@@ -112,7 +111,7 @@ const Nave = () => {
             <li>
               <a
                 href="#"
-                className="text-gray-900 hover:text-blue-600 dark:text-white "
+                className="text-gray-900 hover:text-blue-600  "
               >
                 Company
               </a>
@@ -120,7 +119,7 @@ const Nave = () => {
             <li>
               <a
                 href="#"
-                className="text-gray-900 hover:text-blue-600 dark:text-white  "
+                className="text-gray-900 hover:text-blue-600   "
               >
                 Team
               </a>
@@ -128,7 +127,7 @@ const Nave = () => {
             <li>
               <a
                 href="#"
-                className="text-gray-900 hover:text-blue-600 dark:text-white "
+                className="text-gray-900 hover:text-blue-600  "
               >
                 Features
               </a>
@@ -136,7 +135,7 @@ const Nave = () => {
             <li>
               <a
                 href="#"
-                className="text-gray-900 hover:text-blue-600 dark:text-white "
+                className="text-gray-900 hover:text-blue-600  "
               >
                 Blogs
               </a>
@@ -144,7 +143,7 @@ const Nave = () => {
             <li>
               <a
                 href="#"
-                className="text-gray-900 hover:text-blue-600 dark:text-white "
+                className="text-gray-900 hover:text-blue-600  "
               >
                 HOT OFFERS
               </a>
